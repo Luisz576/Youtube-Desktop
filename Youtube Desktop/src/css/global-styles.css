@@ -1,0 +1,156 @@
+/* BODY */
+*{
+    font-family: Arial, Helvetica, sans-serif
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+div{
+    float: left;
+}
+iframe{
+    margin-top: 70px;
+}
+#main{
+    width: 100%;
+    height: 100%;
+}
+.no-display{
+    display: none;
+}
+/* HEADER */
+header{
+    top: 0;
+    position: fixed;
+    z-index: 10;
+    padding: 20px;
+    height: 50px;
+    width: 100%;
+}
+.header-img-logo{
+    width: 25%;
+}
+.header-img-logo:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.img-logo{
+    width: 120px;
+}
+#header-search-camp{
+    width: 60%;
+}
+#search-camp{
+    outline: 0;
+    font-size: 16px;
+    width: 450px;
+    font-size: 14px;
+    height: 30px;
+}
+.search-button{
+    overflow: hidden;
+    width: 30px;
+    height: 30px;
+}
+.search-button:hover{
+    cursor: pointer;
+}
+#search-button-img{
+    width: 50%;
+    margin: 25%;
+}
+.header-profile{
+    width: 3%;
+    margin-left: 5%;
+}
+.header-profile:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.header-profile img{
+    width: 30px;
+}
+/* PAGE */
+.page-content-videos{
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    margin-top: 70px;
+}
+.infinity-loading, .loading-watch, .loading-search{
+    width: 10%;
+    margin-left: 45%;
+    margin-top: 40px;
+}
+.loading-watch{
+    position: absolute;
+    margin-top: 80px;
+}
+/* Video */
+.video-main-page{
+    margin: 12px;
+    width: 30%;
+    height: 230px;
+}
+.video-main-page img{
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+}
+.video-main-page img:hover{
+    transform: scale(1.05);
+    z-index: 4;
+}
+.video-main-page p{
+    position: relative;
+    font-size: 14px;
+    max-width: 100%;
+    font-weight: bold;
+    margin: 0;
+}
+.video-main-page span{
+    font-size: 12px;
+    margin-top: 10px;
+}
+/* SEARCH */
+#all-videos-searched{
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 70px;
+}
+.loading-search{
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.video-searched{
+    width: 100%;
+    margin-bottom: 40px;
+}
+.video-searched .video-image{
+    position: relative;
+    width: 40%;
+    margin-right: 5%;
+}
+.video-searched img{
+    position: relative;
+    width: 100%;
+}
+.video-searched img:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.video-searched .video-content{
+    position: relative;
+    width: 55%;
+}
+.video-searched .video-content h3{
+    font-size: 16px;
+    font-weight: bold;
+}
+.video-searched .video-content p, .video-searched .video-content span{
+    font-size: 12px;
+}

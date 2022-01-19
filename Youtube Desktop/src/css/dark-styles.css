@@ -1,0 +1,30 @@
+.dark{
+    background-color: #202020;
+    width: 100%;
+    height: 100%;
+}
+
+.dark header{
+    background-color: #202020;
+}
+
+.dark #search-camp{
+    border: 1 solid #d3d3d3;
+}
+
+.dark .search-button{
+    background-color: #313131;
+    border: 1 solid #222;
+}
+
+.dark .search-button:hover{
+    background-color: #212121;
+}
+
+.dark .page-content-videos{
+    background-color: #181818;   
+}
+
+.dark .video-main-page p, .dark .video-main-page span, .dark .video-searched .video-content h3, .dark .video-searched .video-content p, .dark .video-searched .video-content span{
+    color: #fff;
+}

@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Youtube  Desktop</title>
+        <link rel="stylesheet" href="../css/global-styles.css"/>
+        <link rel="stylesheet" href="../css/light-styles.css"/>
+        <link rel="stylesheet" href="../css/dark-styles.css"/>
+        <!-- SCRIPTS -->
+        <script src="../js/youtube_api.js"></script>
+    </head>
+    <body class="light">
+        <div id="main">
+            <div id="component-header"></div>
+            <div id="all-videos-searched"></div>
+            <div style="width: 100%;">
+                <img id="loading" class="loading-search" src="../img/loading.gif">
+            </div>
+        </div>
+        <!-- SCRIPTS -->
+        <script src="./components/header.js"></script>
+        <script src="../js/layout.js"></script>
+        <script src="../js/search_page.js"></script>
+        <script>
+            window.aplication.on('open-page', (event, args) => {
+                changeTheme(args[0])
+                search(args[1])
+            })
+        </script>
+    </body>
+</html>

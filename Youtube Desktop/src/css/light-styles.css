@@ -1,0 +1,30 @@
+.light{
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+.light header{
+    background-color: #fff;
+}
+
+.light #search-camp{
+    border: 1 solid #d3d3d3;
+}
+
+.light .search-button{
+    background-color: #f8f8f8;
+    border: 1 solid #d3d3d3;
+}
+
+.light .search-button:hover{
+    background-color: #e0e0e0;
+}
+
+.light .page-content-videos{
+    background-color: #eee;   
+}
+
+.light .video-main-page p, .light .video-main-page span, .light .video-searched .video-content h3, .light .video-searched .video-content p, .light .video-searched .video-content span{
+    color: #000;
+}

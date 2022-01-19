@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Youtube  Desktop</title>
+        <link rel="stylesheet" href="../css/global-styles.css"/>
+        <link rel="stylesheet" href="../css/light-styles.css"/>
+        <link rel="stylesheet" href="../css/dark-styles.css"/>
+        <!-- SCRIPTS -->
+        <script src="../js/youtube_api.js"></script>
+    </head>
+    <body class="light">
+        <div id="main">
+            <div id="component-header"></div>
+            <div class="page-content-videos">
+                <div id="content-videos"></div>
+                <img class="infinity-loading" src="../img/loading.gif">
+            </div>
+        </div>
+        <!-- SCRIPTS -->
+        <script src="./components/header.js"></script>
+        <script src="../js/layout.js"></script>
+        <script src="../js/videos_mainpage_controller.js"></script>
+        <script>
+            window.aplication.on('open-page', (event, args) => {
+                changeTheme(args[0])
+                if(args.length == 2)
+                    alert(args[1])
+            })
+        </script>
+    </body>
+</html>

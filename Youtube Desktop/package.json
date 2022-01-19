@@ -1,0 +1,14 @@
+{
+  "name": "youtube-desktop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/server/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Luisz576",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^16.0.7"
+  }
+}
